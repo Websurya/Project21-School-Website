@@ -1,0 +1,4 @@
+font -> 'Poppins', sans-serif
+
+Orange color: #f0390f
+Blue color: #3e0bce

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-image">
+                <img src="src/logo.png" alt="logo">
+            </div>
+            <div class="header-nav" id="menu">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SKATING</li>
+                    <li>SHOP</li>
+                    <li>CONTACT US</li>
+                </ul>
+            </div>
+            <div class="header-nav1">
+                <i class="fa fa-bars" onclick="menu()"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner-wrapper">
+            <div class="banner-left">
+                <img src="src/top_icon.png" alt="top_icon">
+                <h1>Skating<br>Board<br>School</h1>
+            </div>
+            <div class="banner-right">
+                <img src="src/banner_img.png" alt="banner_img">
+            </div>
+        </section>
+        <section class="our-skating">
+            <h1>Our Skating Class</h1>
+            <p>There are many variations of passages of Lorem</p>
+            <div class="class">
+                <div class="class1">
+                    <div class="orange">
+                        <img src="src/class1.png" alt="class1">
+                        <h3>Skateboard</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alternation. There are many variations.</p>
+                    </div>
+                    <p class="read-more">READ MORE</p>
+                </div>
+                <div class="class2">
+                    <div class="blue">
+                        <img src="src/class2.png" alt="class2">
+                        <h3>Skateboard</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alternation. There are many variations.</p>
+                    </div>
+                    <p class="read-more">READ MORE</p>
+                </div>
+                <div class="class3">
+                    <div class="orange">
+                        <img src="src/class3.png" alt="class2">
+                        <h3>Skateboard</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alternation. There are many variations.</p>
+                    </div>
+                    <p class="read-more">READ MORE</p>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-left">
+                <h1>About<br>Skating<br>School</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alternation. There are many variations. There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered
+                    alternation. There are many variations.</p>
+            </div>
+            <div class="about-right">
+                <img src="src/about.png" alt="about">
+            </div>
+
+        </section>
+    </main>
+    <script>
+        function menu() {
+            document.getElementById("menu").style = "display:block"
+        }
+
+    </script>
+</body>
+
+</html>
